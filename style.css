@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eff6e0;
+    color: #124559;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  #weather-result img {
+    width: 60px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
